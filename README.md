@@ -3,7 +3,7 @@
 ```
 rommon 1> confreg 0x2142
 rommon 2> reset
-copy startup-config running-config
+copy tftp running-config
 enable secret cisco
 interface gig0/0
 no shutdown
